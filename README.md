@@ -27,6 +27,15 @@
 Contect:
 Email:PHY2209504@xmu.edu.my
 
+## My Favourite Singer
+ <img decoding="async" align="right" src="image/尤长靖.jpg" width="30%">
+
+   >Name:尤长靖 （Azora Chin）
+   >
+   >🎂:1994 Sep 19th
+   >
+   >Songs😶‍🌫️:《昨日青空》《是你想成为的大人吗》《直到永远》《荒诞学家》
+
 -----------------------------------------------------
    ### Study Achievement
   |Language|
@@ -35,7 +44,6 @@ Email:PHY2209504@xmu.edu.my
 - [ ] Java
 - [ ] HTML    
 - [ ] JavaScript  
-
 
 ```Pyton
 import matplotlib.pyplot as plt
@@ -49,7 +57,7 @@ plt.plot( x,y, color = '#FA8072')
 plt.xlim(-22,22)
 plt.show()
 ```
-![heart](image/爱心.png "GitHub,Social Coding")
+ <img decoding="async" src="image/爱心.png" style="width: 60%;">
 
 ## More About Me
 Waiting for you to explore 
