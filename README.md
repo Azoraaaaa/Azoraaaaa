@@ -28,7 +28,7 @@ Contect:
 Email:PHY2209504@xmu.edu.my
 
 ## My Favourite Singer
- <img decoding="async" align="right" src="image/尤长靖.jpg" width="30%">
+ <img decoding="async" align="right" src="image/Azora Chin.png" width="30%">
 
    >Name:尤长靖 （Azora Chin）
    >
