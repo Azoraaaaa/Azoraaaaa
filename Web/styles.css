@@ -1,0 +1,28 @@
+h1 {
+    color: 	Salmon;
+  }
+
+p{
+    color: black;
+}
+
+.special {
+  color: orange;
+  font-weight: bold;
+}
+
+li em {
+  color: rgb(51, 153, 138);
+}
+
+h1 + p {
+  font-size: 200%;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+
+

@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>开始学习 CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <h1>我是一级标题</h1>
+
+    <p class="special">
+      这是一个段落文本。在文本中有一个 <span>span element</span> 并且还有一个
+      <a href="http://example.com">链接</a>.
+    </p>
+
+    <p>这是第二段。包含了一个 <em>强调</em> 元素。</p>
+
+    <ul>
+      <li>项目一</li>
+      <li class="special">项目二</li>
+      <li>项目 <em>三</em></li>
+    </ul>
+
+    <script>
+      // Your JavaScript goes here
+      let randomNumber = Math.floor(Math.random() * 100) + 1;
+
+      const guesses = document.querySelector(".guesses");
+      const lastResult = document.querySelector(".lastResult");
+      const lowOrHi = document.querySelector(".lowOrHi");
+
+      const guessSubmit = document.querySelector(".guessSubmit");
+      const guessField = document.querySelector(".guessField");
+      let guessCount = 1;
+      let resetButton;
+    </script>
+
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+    
+    <label for="guessField">Enter a guess: </label>
+    <input type="number" id="guessField" class="guessField" />
+    <input type="submit" value="Submit guess" class="guessSubmit" />
+
+    
+    function checkGuess() {
+      const userGuess = Number(guessField.value);
+      if (guessCount === 1) {
+        guesses.textContent = "Previous guesses: ";
+      }
+      guesses.textContent += `${userGuess} `;
+    
+      if (userGuess === randomNumber) {
+        lastResult.textContent = "Congratulations! You got it right!";
+        lastResult.style.backgroundColor = "green";
+        lowOrHi.textContent = "";
+        setGameOver();
+      } else if (guessCount === 10) {
+        lastResult.textContent = "!!!GAME OVER!!!";
+        lowOrHi.textContent = "";
+        setGameOver();
+      } else {
+        lastResult.textContent = "Wrong!";
+        lastResult.style.backgroundColor = "red";
+        if (userGuess < randomNumber) {
+          lowOrHi.textContent = "Last guess was too low!";
+        } else if (userGuess > randomNumber) {
+          lowOrHi.textContent = "Last guess was too high!";
+        }
+      }
+    
+      guessCount++;
+      guessField.value = "";
+      guessField.focus();
+    }
+
+    guessSubmit.addEventListener("click", checkGuess);
+
+    
+  </body>
+</html>

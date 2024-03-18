@@ -1,0 +1,94 @@
+  body {
+    background-color: #f1c7c0; /* 设置背景颜色 */
+    margin: 0; /* 清除默认的外边距 */
+    padding: 0; /* 清除默认的内边距 */
+  }
+
+  .top-bar {
+    background-image: url('background.jpg'); /* 设置背景图片 */
+    background-size: contain; /* 将背景图片适应盒子的尺寸 */
+    background-repeat: no-repeat; /* 使背景图片不重复 */
+    display: flex;
+    justify-content: center; /* 盒子中内容居中 */
+    align-items: flex-end;  /* 盒子中内容居于底部 */
+    width: 100%; /* 设置盒子宽度为100% */
+    height: 255px; /* 设置盒子高度为200像素 */
+  }
+
+  .top-inner {
+    background-color: #ffffff; /* 设置背景颜色 */
+    width: 95%; /* 设置盒子宽度为100% */
+    height: 60px; /* 设置盒子高度为200像素 */
+    padding: 10px; /* 设置内边距 */
+    margin-bottom: 10px; /* 设置下边距 */
+  }
+
+  .logo {
+    float: left;
+    align-items: center; /* 垂直居中 */
+    background-image: url('logo.png'); /* 设置背景图片 */
+    background-size: contain; /* 将背景图片适应盒子的尺寸 */
+    background-repeat: no-repeat; /* 使背景图片不重复 */
+    width: 13%; /* 设置盒子宽度为100% */
+    height: 60px; /* 设置盒子高度为200像素 */
+    margin: 2px; /* 如果需要，可以添加一些外边距 */
+    margin-left: 20px; /* 设置左边距 */
+  }
+
+  .box {
+    float: left;
+    align-items: center; /* 垂直居中 */
+    background-color: #ffffff; /* 设置背景颜色 */
+    border: 2px solid rgb(250, 225, 225); 
+    max-height: 50px; /* 最大高度 */
+    max-width: 100px; /* 最大宽度 */
+    margin: 5px; /* 如果需要，可以添加一些外边距 */
+    padding: 5px; /* 设置内边距 */
+    justify-content: center; /* 盒子中内容居中 */
+  }
+
+  .left-box {
+    background-color: #fff6ed; /* 设置背景颜色 */
+    padding: 20px; /* 设置内边距 */
+    width: 300px; /* 设置宽度 */
+    float: left; /* 让盒子浮动到左侧 */
+    margin-top: 10px; /* 设置上边距 */
+    margin-right: 5px; /* 设置右边距 */
+    margin-left: 20px; /* 设置左边距 */
+  }
+
+  .right-box {
+    background-color: #ffffff; /* 设置盒子背景颜色 */
+    padding: 20px; /* 设置内边距 */
+    width: 1085px; /* 设置宽度 */
+    float: right; /* 让盒子浮动到右侧 */
+    margin-top: 10px; /* 设置上边距 */
+    margin-right: 20px; /* 设置右边距 */
+    margin-left: 5px; /* 设置左边距 */
+  }
+
+  p {
+    text-indent: 1em; /* 设置缩进为2个em单位 */
+  }  
+  a:link {
+    color: rgb(241, 129, 114); /* 未访问的链接 */
+  }
+  a:visited {
+    color: rgb(241, 129, 114); /* 访问过的链接 */
+  }
+  a:hover {
+    color: rgb(195, 231, 246); /* 鼠标悬停在链接上 */
+  } 
+  a:hover {
+    text-decoration: none; /* 鼠标悬停在链接上 */
+  }
+  a:active {
+    text-decoration: none;   /* 链接被点击时 */
+  }
+
+  img {
+    width: 300px; /* 设置图片宽度为200像素 */
+    height: auto; /* 设置高度自适应，保持原始宽高比 */
+    margin-top: 5px; /* 设置上边距为20像素 */
+    margin-right: 50px; /* 设置左边距为50像素 */
+  }
