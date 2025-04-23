@@ -49,7 +49,8 @@ Email:PHY2209504@xmu.edu.my
 -----------------------------------------------------
    ### Study Achievement
   |Language|
-- [x] C/C++  
+- [x] C++
+- [x] C#
 - [x] Python
 - [ ] Java
 - [ ] HTML    
@@ -69,5 +70,9 @@ plt.show()
 ```
  <img decoding="async" src="image/爱心.png" style="width: 60%;">
 
-## More About Me
-Waiting for you to explore 
+ |Software|
+- [x] Unity3D
+- [ ] UE
+- [x] Blender
+- [x] Maya 
+
