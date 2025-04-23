@@ -75,4 +75,4 @@ plt.show()
 - [ ] UE
 - [x] Blender
 - [x] Maya 
-
+<img decoding="async" src="image/girl.png" style="width: 60%;">
